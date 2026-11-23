@@ -2,7 +2,7 @@
 
 **Independent Xbox Scarlett → Windows compatibility research and reproducible GPU diagnostics.**
 
-[Research progress](docs/PROGRESS.md) · [First-frame research](docs/LEONIDA-CB-DIAGNOSTIC-SPEC.md) · [Roadmap](docs/ROADMAP.md) · [Upstream projects](docs/UPSTREAM.md) · [Publication policy](SECURITY.md)
+[Research progress](docs/PROGRESS.md) · [Source release plan](docs/SOURCE-RELEASE-V0.1.md) · [Reproducibility](docs/REPRODUCIBILITY.md) · [First-frame research](docs/LEONIDA-CB-DIAGNOSTIC-SPEC.md) · [Roadmap](docs/ROADMAP.md) · [Upstream projects](docs/UPSTREAM.md) · [Contributing](CONTRIBUTING.md) · [Publication policy](SECURITY.md)
 
 > [!IMPORTANT]
 > This is an independent, unofficial research project. We are **not affiliated with Rockstar Games, Take-Two, Microsoft, or Leonida**.
