@@ -47,7 +47,7 @@ The aim is to identify, within **one run and one draw**, the last CPU writer, ac
 
 ## Active integration milestone
 
-[**M5: Synthetic PE → GDK → XMem → VABridge → DescriptorBridge → D3D12 → first deterministic frame**](https://github.com/Naz1r/lucy-nazir-gta6-research/issues/2) is tracked separately from the [public source audit](https://github.com/Naz1r/lucy-nazir-gta6-research/issues/1). **M5 is planned, not completed**. Acceptance requires real, self-authored source, independently checked GPU readback, negative controls and a reproducible build. It does not demonstrate retail GTA VI startup.
+[**M5: Synthetic PE → GDK → XMem → VABridge → DescriptorBridge → D3D12 → first deterministic frame**](https://github.com/Naz1r/lucy-nazir-gta6-research/issues/2) is tracked separately from the [public source audit](https://github.com/Naz1r/lucy-nazir-gta6-research/issues/1). **M5 hardware acceptance is now reported locally, not independently reproduced.** Two RTX 3060 runs reportedly passed 768/768 compute words, 192/192 colored offscreen and backbuffer pixels, 4/4 Present calls, 8 negative checks, and 0 D3D12 Debug Layer/GPU validation errors. The output was a **self-authored synthetic frame captured before Present in a hidden window**. The actual source, logs and 67-file manifest are not published or audited here; a clean second-system reproduction remains outstanding. [Reported M5 measurements](https://github.com/Naz1r/lucy-nazir-gta6-research/issues/2#issuecomment-7117173968). This does not demonstrate retail GTA VI startup.
 
 ## Reproducibility and source availability
 
