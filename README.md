@@ -45,6 +45,10 @@ The aim is to identify, within **one run and one draw**, the last CPU writer, ac
 - `docs/ROADMAP.md` — next reproducible milestones.
 - `SECURITY.md` — rules for safe publication and contributions.
 
+## Active integration milestone
+
+[**M5: Synthetic PE → GDK → XMem → VABridge → DescriptorBridge → D3D12 → first deterministic frame**](https://github.com/Naz1r/lucy-nazir-gta6-research/issues/2) is tracked separately from the [public source audit](https://github.com/Naz1r/lucy-nazir-gta6-research/issues/1). **M5 is planned, not completed**. Acceptance requires real, self-authored source, independently checked GPU readback, negative controls and a reproducible build. It does not demonstrate retail GTA VI startup.
+
 ## Reproducibility and source availability
 
 The local runtime prototypes and measured outputs remain on the researcher's Windows machine. We will publish **reviewed, self-authored, non-proprietary code and sanitized test evidence** separately once verified for provenance, secrets, licence compatibility and data exposure. Do not infer that a referenced local report or working binary is available in this repository.
